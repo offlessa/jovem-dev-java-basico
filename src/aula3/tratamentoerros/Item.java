@@ -13,12 +13,16 @@ public class Item {
 		return nome;
 	}
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
 	public double getPreco() {
 		return preco;
 	}
 
-	@Override
-	public String toString() {
-		return "Item:" + nome + "Preço:" + preco;
+	public void setPreco(double preco) {
+		this.preco = preco;
 	}
+
 }
