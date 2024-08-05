@@ -15,12 +15,12 @@ public class Venda {
 		this.itens = new ArrayList<>();
 	}
 
-	public void addItem(String nome, double preco) throws PrecoIncorretoException {
-		if (preco <= 0) {
+	public void addItem(String nomeItem, double precoItem) throws PrecoIncorretoException {
+		if (precoItem <= 0) {
 			throw new PrecoIncorretoException("O preço deve ser maior que zero.");
 
 		}
-		Item item = new Item(nome, preco);
+		Item item = new Item(nomeItem, precoItem);
 		itens.add(item);
 	}
 

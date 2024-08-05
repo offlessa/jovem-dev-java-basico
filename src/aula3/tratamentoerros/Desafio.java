@@ -13,8 +13,7 @@ public class Desafio {
 		boolean quantidadeValida = false;
 		while (!quantidadeValida) {
 			try {
-				int quantidadeDeItens = Integer
-						.parseInt(JOptionPane.showInputDialog("Digite a quantidade de itens (entre 1 e 10): "));
+				int quantidadeDeItens = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de itens (entre 1 e 10): "));
 
 				if (quantidadeItens < 1 || quantidadeItens > 10) {
 
