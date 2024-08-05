@@ -64,10 +64,10 @@ public class Principal {
 			Integer.parseInt(JOptionPane.showInputDialog("Escolha a forma de pagamento: \n "
 					+ "1 - Cartão de crédito \n" + "2 - Cartão de débito \n" + "3 - Dinheiro"));
 
-			double valorTotal = precoUnidade * quantidadeDeProdutos;
+	//		double valorTotal = precoUnidade * quantidadeDeProdutos;
 
-			JOptionPane.showMessageDialog(null, "************ CUPOM ************ \n\n" + "\n" + quantidadeDeProdutos
-					+ "x " + precoUnidade + " ................. " + valorTotal);
+	//		JOptionPane.showMessageDialog(null, "************ CUPOM ************ \n\n" + "\n" + quantidadeDeProdutos
+	//				+ "x " + precoUnidade + " ................. " + valorTotal);
 
 		}
 	}
