@@ -13,7 +13,7 @@ public class Desafio {
 		eventos.add(new Evento("Formatura", LocalDateTime.of(2024, 8, 5, 19, 0), TipoEvento.SOCIAL));
 		eventos.add(new Evento("Reunião de Trabalho", LocalDateTime.of(2024, 8, 10, 9, 0), TipoEvento.PROFISSIONAL));
 		eventos.add(new Evento("Show de Música", LocalDateTime.of(2020, 9, 15, 21, 0), TipoEvento.LAZER));
-		eventos.add(new Evento("Curso de Programação", LocalDateTime.of(2024, 8, 20, 14, 0), TipoEvento.OUTROS));
+		eventos.add(new Evento("Academia", LocalDateTime.of(2024, 8, 20, 14, 0), TipoEvento.OUTROS));
 		eventos.add(new Evento("Futebol", LocalDateTime.of(2022, 12, 25, 12, 0), TipoEvento.LAZER));
 
 		String tipoDoEvento = JOptionPane
