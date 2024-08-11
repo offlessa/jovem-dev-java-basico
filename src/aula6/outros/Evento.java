@@ -31,4 +31,9 @@ public class Evento {
 	public String toString() {
 		return descricao + " (Data e Hora: " + dataHora + ")";
 	}
+
+	public Object getNome() {
+		
+		return null;
+	}
 }
